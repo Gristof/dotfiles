@@ -10,5 +10,6 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-# git
+# aliases
 alias g='git'
+alias frc='nvim ~/.config/fish/config.fish'
