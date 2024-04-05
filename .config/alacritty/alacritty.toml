@@ -1,5 +1,9 @@
+# $HOME/.config/alacritty/alacritty.toml
+
+live_config_reload = true
+
 [font]
-size = 16.0
+size = 18.0
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"

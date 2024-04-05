@@ -13,3 +13,5 @@ end
 # aliases
 alias g='git'
 alias frc='nvim ~/.config/fish/config.fish'
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
