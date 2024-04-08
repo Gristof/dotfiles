@@ -1,0 +1,12 @@
+firefox
+thunderbird
+chromium
+vscode
+spotify
+visualboyadvance-m
+melonds
+
+btop
+volta
+git
+vim
