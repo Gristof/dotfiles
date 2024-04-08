@@ -132,8 +132,5 @@ fi
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
-# Vim Theme
-source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
-
 # Starship prompt
 eval "$(starship init bash)"
