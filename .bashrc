@@ -132,5 +132,8 @@ fi
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
+
 # Starship prompt
 eval "$(starship init bash)"
