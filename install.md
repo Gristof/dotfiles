@@ -15,6 +15,12 @@ spotify
 visualboyadvance-m
 melon-ds
 
+# fonts
+nerd fonts
+    fira code
+    jetbrains mono
+    meslo
+
 # tools
 
 ## hardware stats
@@ -31,3 +37,6 @@ fzf
 
 ## syntax highlighting
 bat
+
+## system information
+neofetch
