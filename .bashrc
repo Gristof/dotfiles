@@ -107,6 +107,9 @@ alias g='git'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
 
+# pnpm
+alias p='pnpm'
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -134,3 +137,11 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 # Starship prompt
 eval "$(starship init bash)"
+
+# pnpm
+export PNPM_HOME="/home/christoph/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
