@@ -13,7 +13,7 @@
 call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
 call plug#end()
 
 " Disable vi compatibility
@@ -72,6 +72,6 @@ set smartcase
 set hlsearch
 
 " Theming
-set termguicolors
-set background=dark
-colorscheme gruvbox
+" set termguicolors
+" set background=dark
+" colorscheme gruvbox
