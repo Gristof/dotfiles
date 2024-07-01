@@ -3,10 +3,10 @@
 live_config_reload = true
 
 [font]
-size = 18.0
+size = 15.0
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "JetBrainsMono Nerd Font Mono"
 
 [window]
 opacity = 0.9
@@ -16,32 +16,38 @@ dynamic_padding = true
 x = 6
 y = 6
 
-# Colors (Solarized Osaka)
-# Source https://github.com/craftzdog/solarized-osaka.nvim
-
-# Default colors
 [colors.primary]
-background = '#001a1d'
-foreground = '#839496'
+background = "#1f1f28"
+foreground = "#dcd7ba"
 
-# Normal colors
 [colors.normal]
-black   = '#073642'
-red     = '#dc322f'
-green   = '#859900'
-yellow  = '#b58900'
-blue    = '#268bd2'
-magenta = '#d33682'
-cyan    = '#2aa198'
-white   = '#eee8d5'
+black = "#090618"
+red = "#c34043"
+green = "#76946a"
+yellow = "#c0a36e"
+blue = "#7e9cd8"
+magenta = "#957fb8"
+cyan = "#6a9589"
+white = "#c8c093"
 
-# Bright colors
 [colors.bright]
-black   = '#4c4c4c'
-red     = '#cb4b16'
-green   = '#586e75'
-yellow  = '#657b83'
-blue    = '#839496'
-magenta = '#6c71c4'
-cyan    = '#93a1a1'
-white   = '#fdf6e3'
+black = "#727169"
+red = "#e82424"
+green = "#98bb6c"
+yellow = "#e6c384"
+blue = "#7fb4ca"
+magenta = "#938aa9"
+cyan = "#7aa89f"
+white = "#dcd7ba"
+
+[colors.selection]
+background = "#2d4f67"
+foreground = "#c8c093"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#ffa066"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#ff5d62"

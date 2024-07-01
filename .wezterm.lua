@@ -10,11 +10,11 @@ local config = wezterm.config_builder()
 config.color_scheme = "Kanagawa (Gogh)"
 
 -- Change window opacity
-config.window_background_opacity = 1
+config.window_background_opacity = 0.9
 
 -- Change font
-config.font = wezterm.font("UbuntuMono Nerd Font")
-config.font_size = 18
+config.font = wezterm.font("UbuntuMono Nerd Font Mono")
+config.font_size = 17
 config.line_height = 1.2
 -- Antialiasing
 config.freetype_load_target = "Light"
