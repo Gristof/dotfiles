@@ -13,8 +13,8 @@ config.color_scheme = "Kanagawa (Gogh)"
 config.window_background_opacity = 0.9
 
 -- Change font
-config.font = wezterm.font("UbuntuMono Nerd Font Mono")
-config.font_size = 17
+config.font = wezterm.font("UbuntuSansMono Nerd Font Mono")
+config.font_size = 14
 config.line_height = 1.2
 -- Antialiasing
 config.freetype_load_target = "Light"

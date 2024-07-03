@@ -1,7 +1,7 @@
 {
-	"editor.fontFamily": "UbuntuMono Nerd Font, FiraCode Nerd Font, monospace",
+	"editor.fontFamily": "Dank Mono, Iosevka Term SS12, UbuntuSansMono Nerd Font Mono, monospace",
 	"editor.fontSize": 20,
-	"editor.lineHeight": 1.5,
+	"editor.lineHeight": 1.4,
 	"editor.fontWeight": "normal",
 	"files.autoSave": "onFocusChange",
 	"editor.formatOnSave": true,
@@ -26,6 +26,7 @@
 	"workbench.colorTheme": "Kanagawa",
 	"vsicons.dontShowNewVersionMessage": true,
 	"cSpell.userWords": [
-		"Kanagawa"
+		"Kanagawa",
+		"Statista"
 	]
 }

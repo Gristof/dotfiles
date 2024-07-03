@@ -7,7 +7,7 @@ return {
         dark = "wave",
         light = "lotus",
       },
-      transparent = false,
+      transparent = true,
     },
   },
   {
