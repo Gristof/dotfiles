@@ -9,7 +9,7 @@ size = 15.0
 family = "CodeNewRoman Nerd Font Mono"
 
 [window]
-opacity = 0.9
+opacity = 0.95
 dynamic_padding = true
 
 [window.padding]
