@@ -17,7 +17,7 @@ config.font = wezterm.font("UbuntuSansMono Nerd Font Mono")
 config.font_size = 14
 config.line_height = 1.2
 -- Antialiasing
-config.freetype_load_target = "Light"
+-- config.freetype_load_target = "Light"
 
 -- Tab adjustments
 config.use_fancy_tab_bar = false
