@@ -7,6 +7,8 @@ chromium
 vim
 tilix
 vscode
+zed
+alacritty
 
 # music
 spotify
@@ -20,11 +22,13 @@ nerd fonts
     fira code
     jetbrains mono
     meslo
+    hack
+    commit mono
 
 # tools
 
 ## hardware stats
-btop 
+btop
 
 ## node version management
 volta
