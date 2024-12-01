@@ -1,0 +1,18 @@
+include themes/rose-pine.conf
+
+# window settings
+hide_window_decorations yes
+
+# background settings
+background_opacity 0.9
+
+# font settings
+font_size 14
+font_family CommitMono Nerd Font
+
+#tab settings
+tab_bar_min_tabs            1
+tab_bar_edge                bottom
+tab_bar_style               separator
+tab_separator 							" ┇ "
+tab_title_template          {title}{' :{}:'.format(num_windows) if num_windows > 1 else ''}

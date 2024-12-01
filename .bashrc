@@ -34,7 +34,7 @@ shopt -s checkwinsize
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
-	debian_chroot=$(cat /etc/debian_chroot)
+  debian_chroot=$(cat /etc/debian_chroot)
 fi
 
 # set a fancy prompt (non-color, unless we know we "want" color)
@@ -68,21 +68,21 @@ fi
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm* | rxvt*)
-	PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
-	;;
+  PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+  ;;
 *) ;;
 esac
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
-	test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-	alias ls='ls --color=auto'
-	#alias dir='dir --color=auto'
-	#alias vdir='vdir --color=auto'
+  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+  alias ls='ls --color=auto'
+  #alias dir='dir --color=auto'
+  #alias vdir='vdir --color=auto'
 
-	#alias grep='grep --color=auto'
-	#alias fgrep='fgrep --color=auto'
-	#alias egrep='egrep --color=auto'
+  #alias grep='grep --color=auto'
+  #alias fgrep='fgrep --color=auto'
+  #alias egrep='egrep --color=auto'
 fi
 
 # colored GCC warnings and errors
@@ -93,11 +93,12 @@ alias ll='ls -l'
 alias la='ls -lAsh'
 alias l='ls -CF'
 alias ..='cd ..'
+alias ...='cd ../..'
 alias config='cd ~/.config/'
 alias home='cd ~'
 alias repos='cd ~/Code/'
 alias dot='cd ~/dotfiles'
-alias zet='cd ~/Zettelkasten'
+alias zk='cd ~/Zettelkasten'
 
 # git alias
 alias g='git'
@@ -105,7 +106,9 @@ alias g='git'
 # system aliases
 alias update='sudo nala update'
 alias upgrade='sudo nala upgrade'
+alias uplist='sudo nala list --upgradable'
 alias full-upgrade='sudo nala full-upgrade'
+alias refresh='source ~/.bashrc'
 
 # pnpm
 alias p='pnpm'
@@ -122,7 +125,7 @@ alias bat='batcat'
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
 if [ -f ~/.bash_aliases ]; then
-	. ~/.bash_aliases
+  . ~/.bash_aliases
 fi
 
 # Add git information in prompt
@@ -131,12 +134,16 @@ fi
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
 if ! shopt -oq posix; then
-	if [ -f /usr/share/bash-completion/bash_completion ]; then
-		. /usr/share/bash-completion/bash_completion
-	elif [ -f /etc/bash_completion ]; then
-		. /etc/bash_completion
-	fi
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
 fi
+
+# Set up fzf key bindings and fuzzy completion
+# eval "$(fzf --bash)"
+alias fuz='nvim $(fzf -m --preview="batcat --color=always {}")'
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
@@ -151,3 +158,4 @@ case ":$PATH:" in
 *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+export PATH=$HOME/.local/bin:$PATH
