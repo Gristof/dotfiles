@@ -23,7 +23,7 @@
 	"prettier.requireConfig": true,
 	"workbench.iconTheme": "eq-material-theme-icons-ocean",
 	"prisma.showPrismaDataPlatformNotification": false,
-	"workbench.colorTheme": "Hardcore Theme",
+	"workbench.colorTheme": "Zenbones Dark Stark",
 	"vsicons.dontShowNewVersionMessage": true,
 	"cSpell.userWords": [
 		"Kanagawa",
