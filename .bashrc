@@ -89,9 +89,9 @@ fi
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -lAsh'
-alias l='ls -CF'
+alias ll='eza -l --icons=always'
+alias la='eza -l -a --icons=always'
+alias l='eza --icons=always'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias config='cd ~/.config/'
@@ -109,6 +109,9 @@ alias upgrade='sudo nala upgrade'
 alias uplist='sudo nala list --upgradable'
 alias full-upgrade='sudo nala full-upgrade'
 alias refresh='source ~/.bashrc'
+
+# built ghostty from source
+alias update-ghostty='cd ~/Downloads/ghostty/ && git pull && zig build -p $HOME/.local -Doptimize=ReleaseFast -fsys=fontconfig'
 
 # pnpm
 alias p='pnpm'
@@ -159,3 +162,4 @@ case ":$PATH:" in
 esac
 # pnpm end
 export PATH=$HOME/.local/bin:$PATH
+. "$HOME/.cargo/env"
