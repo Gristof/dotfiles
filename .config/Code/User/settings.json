@@ -1,7 +1,7 @@
 {
-	"editor.fontFamily": "CaskaydiaCove Nerd Font Mono, Dank Mono, Iosevka Term SS12, UbuntuSansMono Nerd Font Mono, monospace",
-	"editor.fontSize": 16,
-	"editor.lineHeight": 1.4,
+	"editor.fontFamily": "MonoLisa Nerd Font Mono, CaskaydiaCove Nerd Font Mono, Dank Mono, Iosevka Term SS12, UbuntuSansMono Nerd Font Mono, monospace",
+	"editor.fontSize": 15,
+	"editor.lineHeight": 0,
 	"editor.fontWeight": "normal",
 	"files.autoSave": "onFocusChange",
 	"editor.formatOnSave": true,
@@ -23,10 +23,10 @@
 	"prettier.requireConfig": true,
 	"workbench.iconTheme": "eq-material-theme-icons-ocean",
 	"prisma.showPrismaDataPlatformNotification": false,
-	"workbench.colorTheme": "Zenbones Dark Stark",
 	"vsicons.dontShowNewVersionMessage": true,
 	"cSpell.userWords": [
 		"Kanagawa",
 		"Statista"
-	]
+	],
+	"workbench.colorTheme": "Zenbones Dark"
 }
