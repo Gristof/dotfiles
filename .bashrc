@@ -99,6 +99,7 @@ alias home='cd ~'
 alias repos='cd ~/Code/'
 alias dot='cd ~/dotfiles'
 alias zk='cd ~/Zettelkasten'
+alias lz='lazygit'
 
 # git alias
 alias g='git'
