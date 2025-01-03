@@ -1,3 +1,3 @@
 return {
-  require("plugins.themes.okcolors"),
+  require("plugins.themes.rasmus"),
 }
