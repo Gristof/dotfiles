@@ -1,0 +1,4 @@
+theme = Jellybeans
+minimum-contrast = 3
+background-opacity = 0.9
+font-size = 14
