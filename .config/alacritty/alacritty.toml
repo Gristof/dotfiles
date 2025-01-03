@@ -3,18 +3,19 @@
 live_config_reload = true
 
 [font]
-size = 15.0
+size = 14.0
 
 [font.normal]
-family = "CodeNewRoman Nerd Font Mono"
+family = "Hasklug Nerd Font Mono"
+style = "Regular"
 
 [window]
 opacity = 0.97
 dynamic_padding = true
 
 [window.padding]
-x = 6
-y = 6
+# x = 6
+# y = 6
 
 [colors.primary]
 background = "#1f1f28"
