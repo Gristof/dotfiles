@@ -91,7 +91,8 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 # some more ls aliases
 alias ll='eza -l --icons=always'
 alias la='eza -l -a --icons=always'
-alias l='eza --icons=always'
+alias ls='eza --icons=always'
+alias lt='eza -l -a -T --icons=always'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias config='cd ~/.config/'
