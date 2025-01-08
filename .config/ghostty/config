@@ -1,5 +1,7 @@
-theme = GruvboxDarkHard
+font-family = Berkeley Mono
+adjust-cell-height = 10%
+theme = NvimDark
 minimum-contrast = 3
-background-opacity = 0.9
+window-theme = ghostty
+background-opacity = 0.97
 font-size = 14
-background = 181818
