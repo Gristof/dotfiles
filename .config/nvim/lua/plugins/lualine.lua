@@ -42,9 +42,9 @@ return {
         icons_enabled = true,
         -- Some useful glyphs:
         -- https://www.nerdfonts.com/cheat-sheet
-        --        
-        section_separators = { left = "", right = "" },
-        component_separators = { left = "", right = "" },
+        --        
+        section_separators = { left = "", right = "" },
+        component_separators = { left = "", right = "" },
         disabled_filetypes = { "alpha" },
         always_divide_middle = true,
       },
