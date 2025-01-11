@@ -21,12 +21,11 @@
 	"workbench.sideBar.location": "right",
 	"editor.linkedEditing": true,
 	"prettier.requireConfig": true,
-	"workbench.iconTheme": "eq-material-theme-icons-ocean",
 	"prisma.showPrismaDataPlatformNotification": false,
 	"vsicons.dontShowNewVersionMessage": true,
 	"cSpell.userWords": [
 		"Kanagawa",
 		"Statista"
 	],
-	"workbench.colorTheme": "Aura Dark"
+	"workbench.colorTheme": "Gruvbox Dark Hard"
 }
