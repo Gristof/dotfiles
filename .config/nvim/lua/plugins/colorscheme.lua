@@ -1,3 +1,3 @@
 return {
-  require("plugins.themes.rasmus"),
+  require("plugins.themes.gruvbox"),
 }

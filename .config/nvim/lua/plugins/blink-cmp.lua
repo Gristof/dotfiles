@@ -1,6 +1,9 @@
 return {
   "saghen/blink.cmp",
-  dependencies = "rafamadriz/friendly-snippets",
+  dependencies = {
+    "rafamadriz/friendly-snippets",
+    "giuxtaposition/blink-cmp-copilot",
+  },
 
   version = "v0.*",
   opts = {
@@ -15,9 +18,17 @@ return {
     },
     signature = { enabled = true },
     sources = {
-      default = { "lsp", "path", "buffer" },
+      default = { "lsp", "path", "buffer", "copilot" },
       -- Disable cmdline completions
       cmdline = {},
-    }
+      providers = {
+        copilot = {
+          name = "copilot",
+          module = "blink-cmp-copilot",
+          score_offset = 100,
+          async = true,
+        },
+      },
+    },
   },
 }
