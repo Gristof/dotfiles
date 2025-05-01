@@ -25,7 +25,7 @@ require("lazy").setup({
   require("plugins.trouble"),
   require("plugins.alpha"),
   require("plugins.copilot"),
-  require("plugins.windline"),
+  --require("plugins.windline"),
   require("plugins.harpoon"),
   require("plugins.dressing"),
 })
