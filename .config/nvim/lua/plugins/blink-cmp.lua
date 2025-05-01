@@ -19,8 +19,6 @@ return {
     signature = { enabled = true },
     sources = {
       default = { "lsp", "path", "buffer", "copilot" },
-      -- Disable cmdline completions
-      cmdline = {},
       providers = {
         copilot = {
           name = "copilot",
@@ -30,5 +28,6 @@ return {
         },
       },
     },
+    cmdline = {},
   },
 }
