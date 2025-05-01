@@ -1,0 +1,25 @@
+# theme = "base16_transparent"
+theme = "papercolor-dark"
+
+[editor]
+line-number = "relative"
+auto-format = true
+popup-border = "all"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+y = [":clipboard-yank", "yank"]
+C-v = [":clipboard-paste-before"]
+
+[keys.insert]
+C-v = [":clipboard-paste-before"]
+
+[keys.select]
+y = [":clipboard-yank", "yank"]
