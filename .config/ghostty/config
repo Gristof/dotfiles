@@ -1,5 +1,5 @@
 font-family = Berkeley Mono
-adjust-cell-height = 25%
+adjust-cell-height = 20%
 # theme = zenwritten_dark
 # theme = nord
 # theme = Dracula+
@@ -9,6 +9,8 @@ theme = papercolor
 # background = #000000
 mouse-hide-while-typing = true
 window-theme = ghostty
-window-decoration = auto
+# window-decoration = auto
+window-decoration = none
 background-opacity = 0.85
 font-size = 15
+keybind = shift+ctrl+r=reload_config
