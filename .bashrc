@@ -96,7 +96,7 @@ alias lt='eza -l -a -T --icons=always'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias config='cd ~/.config/'
-alias home='cd ~'
+alias root='cd ~'
 alias repos='cd ~/Code/'
 alias dot='cd ~/dotfiles'
 alias zk='cd ~/Zettelkasten'
@@ -111,9 +111,6 @@ alias upgrade='sudo nala upgrade'
 alias uplist='sudo nala list --upgradable'
 alias full-upgrade='sudo nala full-upgrade'
 alias refresh='source ~/.bashrc'
-
-# built ghostty from source
-alias update-ghostty='cd ~/Downloads/ghostty/ && git pull && zig build -p $HOME/.local -Doptimize=ReleaseFast -fsys=fontconfig'
 
 # pnpm
 alias p='pnpm'
@@ -165,3 +162,8 @@ esac
 # pnpm end
 export PATH=$HOME/.local/bin:$PATH
 . "$HOME/.cargo/env"
+export HELIX_RUNTIME=/opt/helix/runtime
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/go/bin
+. "/home/christoph/.deno/env"
+export TERM=xterm-256color
