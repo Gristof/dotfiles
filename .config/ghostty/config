@@ -9,8 +9,11 @@ theme = papercolor
 # background = #000000
 mouse-hide-while-typing = true
 window-theme = ghostty
-# window-decoration = auto
-window-decoration = none
+window-decoration = auto
+# window-decoration = none
 background-opacity = 0.85
+window-padding-x = 8
+window-padding-y = 8
+window-padding-color = extend
 font-size = 15
 keybind = shift+ctrl+r=reload_config
