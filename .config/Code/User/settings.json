@@ -1,7 +1,7 @@
 {
 	"editor.fontFamily": "Berkeley Mono, monospace",
 	"editor.fontSize": 16,
-	"editor.lineHeight": 0,
+	"editor.lineHeight": 1.6,
 	"editor.fontWeight": "normal",
 	"files.autoSave": "onFocusChange",
 	"editor.formatOnSave": true,
@@ -22,10 +22,11 @@
 	"editor.linkedEditing": true,
 	"prettier.requireConfig": true,
 	"prisma.showPrismaDataPlatformNotification": false,
-	"vsicons.dontShowNewVersionMessage": true,
 	"cSpell.userWords": [
 		"Kanagawa",
 		"Statista"
 	],
-	"workbench.colorTheme": "Gruvbox Dark Hard"
+	"workbench.colorTheme": "PaperColor Redux",
+	"workbench.activityBar.location": "top",
+	"breadcrumbs.enabled": false,
 }
