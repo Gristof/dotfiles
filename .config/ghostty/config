@@ -5,15 +5,12 @@ adjust-cell-height = 20%
 # theme = Dracula+
 # theme = embers-dark
 theme = papercolor
-# background = #121214
-# background = #000000
 mouse-hide-while-typing = true
 window-theme = ghostty
 window-decoration = auto
-# window-decoration = none
-background-opacity = 0.85
+gtk-titlebar = false
 window-padding-x = 8
 window-padding-y = 8
 window-padding-color = extend
-font-size = 15
+font-size = 14
 keybind = shift+ctrl+r=reload_config
